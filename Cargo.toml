@@ -1,0 +1,13 @@
+[package]
+name = "claude_tokenizer"
+description = "A library for tokenizing text for Anthropic Claude."
+version = "0.1.0"
+edition = "2021"
+
+[[example]]
+name = "smoke"
+path = "src/examples/smoke.rs"
+
+[dependencies]
+anyhow = "1.0.71"
+tokenizers = "0.13.3"
