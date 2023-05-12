@@ -3,6 +3,7 @@ name = "claude_tokenizer"
 description = "A library for tokenizing text for Anthropic Claude."
 version = "0.1.0"
 edition = "2021"
+license = "mit"
 
 [[example]]
 name = "smoke"
